@@ -12,15 +12,15 @@ The server-side uses express for the routing, mongodb for handling the database 
 
 # Getting started with the project
 
-after downloading the project files, you should move to the client and server directories and run the following command to download all the required dependecies to run the project:
+After downloading the project files, you should move to the client and server directories and run the following command to download all the required dependecies to run the project:
 
 ### `npm i`
 
 
-then you should open the `.env` file inside the server directory and add your mongoDB connection link like following:
+Then you should open the `.env` file inside the server directory and add your mongoDB connection link like following:
 
  `MONGO_UI= mongodb+srv://<username>:<password>@mernapp.ad5fpaw.mongodb.net/?retryWrites=true&w=majority`
  
-and finally navigate to both the client and server directories and run this command to start the react server and the express server:
+Finally navigate to both the client and server directories and run this command to start the react server and the express server:
 
 `npm run start`
