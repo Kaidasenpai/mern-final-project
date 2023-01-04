@@ -1,26 +1,131 @@
 # MERN-Final-Project (Misr El Kheir)
 This is a MERN stack based web project. This is for the charity non-profit organization Misr el kheir.
 
-# Overview on the project
+# Introduction
 
-This is a MERN based project that implements various functions to make use of all MERN capabilites.
+*Front End:* React, Tailwind css, axios
 
-The client-side of this project uses react for the front-end and tailwind css for the styling
-
-The server-side uses express for the routing, mongodb for handling the database solution, and ( bcrypt, jsonwebtoken, validator ) packages for handling the signup/Login and user sessions.
+*Back End:* Express, Mongoose, validator, jsonwebtoken, Bcrypt, cors
 
 
-# Getting started with the project
+## Problem statement
 
-After downloading the project files, you should navigate to the client and server directories and run the following command to download all the required dependecies to run the project:
+You will be creating a web app using the key technologies that we have practiced (MEAN or MERN
+Stacks). Instead of giving you a specific web app to replicate, you are given the freedom to choose what
+you’d like to make.
 
- `npm i`
+You will be working in a team of 5-7 members. Your project must meet the following criteria:
+
+    All Team Members must have a clear contribution in the project
+    Use MEAN or MERN Stacks to develop the web app:
+    Use Angular or React to develop the Front-End of the app
+    Use Node.js Express Framework to develop the Server of the app
+    Use MongoDb as your backend Database
+    Any Extra Work will be appreciated and considered in grading, here are some examples of extras
+   you can add:
+       Implement login and registration mechanisms
+       Use the File System or MongoDb to store login information
 
 
-Then you should open the `.env` file inside the server directory and add your mongoDB connection link like following:
+## Overview of the solution
 
- `MONGO_UI= mongodb+srv://<username>:<password>@mernapp.ad5fpaw.mongodb.net/?retryWrites=true&w=majority`
- 
-Finally navigate to both the client and server directories and run this command to start the react server and the express server:
+1. Building the backend for storing the data and CRUD operations for our website
+2. Building front end with React, Tailwind, and Axios
 
- `npm run start`
+
+# Important Folders and Files
+
+```
++---client
+|   |   package-lock.json
+|   |   package.json
+|   |   postcss.config.js
+|   |   README.md
+|   |   tailwind.config.js
+|   |
+|   +---public
+|   |       index.html
+|   |       manifest.json
+|   |
+|   \---src
+|       |   App.js
+|       |   index.css
+|       |   index.js
+|       |
+|       +---components
+|       |       footer.js
+|       |       navbar.js
+|       |       style.css
+|       |
+|       +---context
+|       |       AuthContext.js
+|       |       WorkoutContext.js
+|       |
+|       +---hooks
+|       |       useAuthContext.js
+|       |       useLogin.js
+|       |       useLogout.js
+|       |       useSignup.js
+|       |
+|       \---pages
+|               BlogDetails.js
+|               blogForm.js
+|               BlogList.js
+|               Blogs.js
+|               Donate.js
+|               HomePage.js
+|               Login.js
+|               NotFound.js
+|               Signup.js
+|               useFetch.js
+|
+\---server
+    |   .env
+    |   package-lock.json
+    |   package.json
+    |   server.js
+    |
+    +---controllers
+    |       blogController.js
+    |       userController.js
+    |
+    +---middleware
+    |       requireAuth.js
+    |
+    +---models
+    |       blogModel.js
+    |       userModel.js
+    |
+    \---routes
+            blogRoutes.js
+            user.js
+```
+
+# Dependencies
+
+## Back End
+![image](https://user-images.githubusercontent.com/120793565/210652909-c2ebb943-2048-48f5-b35e-af2fd24fb287.png)
+
+## Front End
+![image](https://user-images.githubusercontent.com/120793565/210652982-313c09b3-2a32-4428-9c4c-9f558497c6cc.png)
+
+
+
+# Installation
+
+1. Install latest version of Node JS and Chrome
+2. run these commands in a terminal in a new folder
+3. `git clone https://github.com/Kaidasenpai/mern-final-project/ `
+4. `cd client` -> `npm i` ( to download all needed dependecies )
+5. `cd server` -> `npm i` 
+6. edit the .env file in the server directory and add your mongodb connection string  like here 
+
+   (` mongodb+srv://<username>:<password>@mernapp.ad5fpaw.mongodb.net/?retryWrites=true&w=majority `)
+
+7. navigate to both server and client directories on separate terminals and run this command 
+
+   (`npm run start`)
+
+   so you can start both the express and react servers and use the application.
+
+
