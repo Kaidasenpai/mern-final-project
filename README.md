@@ -21,13 +21,24 @@ you’d like to make.
 You will be working in a team of 5-7 members. Your project must meet the following criteria:
 
     All Team Members must have a clear contribution in the project
+   
+   
     Use MEAN or MERN Stacks to develop the web app:
-    Use Angular or React to develop the Front-End of the app
-    Use Node.js Express Framework to develop the Server of the app
-    Use MongoDb as your backend Database
+   
+   
+       Use Angular or React to develop the Front-End of the app
+
+       Use Node.js Express Framework to develop the Server of the app
+
+       Use MongoDb as your backend Database
+
+   
     Any Extra Work will be appreciated and considered in grading, here are some examples of extras
    you can add:
+   
+   
        Implement login and registration mechanisms
+      
        Use the File System or MongoDb to store login information
 
 
