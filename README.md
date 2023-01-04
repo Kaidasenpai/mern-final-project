@@ -1,5 +1,5 @@
 # MERN-Final-Project (Misr El Kheir)
-This is a MERN stack based web project. This is a project for the charity non-profit organization Misr el kheir.
+This is a MERN stack based web project. This is for the charity non-profit organization Misr el kheir.
 
 # Overview on the project
 
