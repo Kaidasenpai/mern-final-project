@@ -1,11 +1,15 @@
+
+
 # MERN-Final-Project (Misr El Kheir)
 This is a MERN stack based web project. This is for the charity non-profit organization Misr el kheir.
 
+![image](https://user-images.githubusercontent.com/120793565/210654361-5eec38f6-c2ca-4027-8d17-8a1a447be7fb.png)
+
 # Introduction
 
-*Front End:* React, Tailwind css, axios
+*Front End:* React, Tailwind css, Axios
 
-*Back End:* Express, Mongoose, validator, jsonwebtoken, Bcrypt, cors
+*Back End:* Express, Mongoose, Validator, jsonwebtoken, Bcrypt, cors
 
 
 ## Problem statement
@@ -114,15 +118,15 @@ You will be working in a team of 5-7 members. Your project must meet the followi
 # Installation
 
 1. Install latest version of Node JS and Chrome
-2. run these commands in a terminal in a new folder
+2. Run these commands in a terminal in a new folder
 3. `git clone https://github.com/Kaidasenpai/mern-final-project/ `
 4. `cd client` -> `npm i` ( to download all needed dependecies )
 5. `cd server` -> `npm i` 
-6. edit the .env file in the server directory and add your mongodb connection string  like here 
+6. Edit the .env file in the server directory and add your mongodb connection string  like here 
 
    (` mongodb+srv://<username>:<password>@mernapp.ad5fpaw.mongodb.net/?retryWrites=true&w=majority `)
 
-7. navigate to both server and client directories on separate terminals and run this command 
+7. Navigate to both server and client directories on separate terminals and run this command 
 
    (`npm run start`)
 
