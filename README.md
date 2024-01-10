@@ -7,9 +7,9 @@ This is a MERN stack based web project. This is for the charity non-profit organ
 
 # Introduction
 
-*Front End:* React, Tailwind css, Axios
+*Front End:* React, Tailwind css, Axios.
 
-*Back End:* Express, Mongoose, Validator, jsonwebtoken, Bcrypt, cors
+*Back End:* Express, Mongoose, Validator, jsonwebtoken, Bcrypt, cors.
 
 
 ## Problem statement
